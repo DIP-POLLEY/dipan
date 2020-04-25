@@ -230,14 +230,20 @@ margin: none;
     }
     .scr2 img
     {
-      width: 40%;
-      height: 10%;
+      margin: 0 auto;
+      width: 50%;
+      height: 15%;
       margin-right: 2%;
     margin-left: 12%;
     }
     .shw2
     {
       display: none;
+    }
+    .txt
+    {
+     width: 100%;
+      padding-top: 2%;
     }
   }
 
