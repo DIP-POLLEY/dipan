@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+
+        <title>test</title>
+        <link rel="stylesheet" href="style2.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+    .swiper-container {
+      width: 100%;
+      height: 100vh;
+
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+/*      background: #fff;
+*/
+      background-image: radial-gradient(white, white, lightblue);
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .jnls
+    {
+      display: flex;
+      padding-top: 10%;
+      padding-bottom: 10%;
+      padding-right: 5%;
+      padding-left: 5%;
+    }
+    .jnls img
+    {
+/*        padding-top: 2%;
+*/        width: 200px;
+        height: 200px;
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+    .txxt
+   {
+    width: 700px;
+   }
+    .jnls .txxt h1
+    {
+/*      padding-top: 2%;
+*/      text-align: center;
+        font-family: 'Noto Serif', serif;
+    }
+     .jnls .txxt p
+     {
+      font-family: 'PT Serif', serif;
+
+      text-align: left;
+     }
+     @media (max-width: 740px)
+    {
+        .jnls
+        {
+          display: block;
+        }
+        .jnls .txxt p
+        {
+          font-family: 'PT Serif', serif;
+          font-size: .75em;
+          /*text-align: left;*/
+        }
+          .txxt
+   {
+    width: 300px;
+   }
+      }
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+  <section>
+    <div class="swiper-container">
+        
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide">
+        <div class="jnls">
+            <img src="comp.png">
+            <div class="txxt">
+              <h1>CODING</h1>
+                <p >I have been coding since age of 14, starting of with basic of Java I have learnt many other languages after that.I like problem solving and I regularly try to practice and participate in various online coding platforms.</p>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="jnls">
+            <img src="sarod.png">
+            <div class="txxt">
+                <h1>MUSIC</h1>
+                <p>I play a classical instrument sarod which I learnt in childhood. I have also  qualified a junior level degree certificate exam from Bangya Sangeet Parishad. I  participate in musical events organized by pur college and also member of MUSIC Club VITCC. </p>
+            </div>
+        </div>
+      </div> 
+      <div class="swiper-slide">
+        <div class="jnls">
+            <img src="karate.png">
+            <div class="txxt">
+                <h1>Sports</h1>
+                <p>I have been into lots of sports activity since my school days. I am BLACK BELT holder in North-Eastern Gokukai Karate. I was in martial arts for a span of 7 years. I have taken part in various seminars and also won 3 Bronze medals in free hand fighting. I am also a cricket fan and I enjoy playing and watching cricket.</p>
+            </div>
+        </div>
+      </div> 
+      
+    </div>
+    <!-- Add Pagination -->
+<!--     <div class="swiper-pagination"></div>
+ -->    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+  <!-- Swiper JS -->
+  <script src="swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
