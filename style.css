@@ -613,7 +613,7 @@ p {
   }
 }
 .progress-moved6 .progress-bar2 {
-  width: 60%;
+  width: 40%;
   background-color: #1F5E8E;
   animation: progressAnimation6 6s;
 }
@@ -624,12 +624,12 @@ p {
     background-color: #9ABED9;
   }
   100% {
-    width: 60%;
+    width: 40%;
     background-color: #1F5E8E;
   }
 }
 .progress-moved7 .progress-bar2 {
-  width: 40%;
+  width: 35%;
   background-color: #1F5E8E;
   animation: progressAnimation7 6s;
 }
@@ -640,7 +640,7 @@ p {
     background-color: #9ABED9;
   }
   100% {
-    width: 40%;
+    width: 35%;
     background-color: #1F5E8E;
   }
 }
