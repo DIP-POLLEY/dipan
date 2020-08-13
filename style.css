@@ -96,7 +96,7 @@ nav a.active,nav a:hover{
   width: 10%;
   
 }
-@media (max-width: 952px){
+@media screen and (max-width: 952px){
   label.logo{
     font-size: 30px;
     padding-left: 50px;
@@ -114,7 +114,7 @@ nav a.active,nav a:hover{
     z-index: 1000;
   }
 }
-@media (max-width: 858px){
+@media screen and (max-width: 858px){
   .stk
   {
     background: linear-gradient(#00B4DB,#0083B0);
@@ -217,7 +217,7 @@ margin: none;
   font-size: 1.25em;
 }
 
- @media (max-width: 858px)
+ @media screen and (max-width: 858px)
   {
     .join
     {
@@ -273,7 +273,7 @@ margin: none;
    margin-left: 5%;
 
 }
-@media (max-width: 858px)
+@media screen and (max-width: 858px)
   {
     .join2
     {
@@ -524,7 +524,7 @@ p {
   margin-top: 5%;
   width: 500px;
 }
-@media (max-width: 858px)
+@media screen and (max-width: 858px)
   {
     .container
     {
@@ -663,7 +663,7 @@ p {
   width: 20%;
   height: 55vh;
 }
-@media (max-width: 858px)
+@media screen and (max-width: 858px)
   {
     .join3 img
     {
@@ -755,7 +755,7 @@ p {
   padding-left: 2%;
   padding-right: 2%;
 }
-@media (max-width: 740px)
+@media screen and (max-width: 740px)
   {
 
     .contain
@@ -920,7 +920,7 @@ p {
     transition: 0.5s;
 
 }
-@media (max-width: 740px)
+@media screen and (max-width: 740px)
   {
     #popup
 {
@@ -955,7 +955,7 @@ p {
   height: 100%;
     
 }
-@media (max-width: 740px)
+@media screen and (max-width: 740px)
 {
 .pg2
 {
